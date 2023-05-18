@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "category_name": "Building"
+  },
+  {
+    "id": 2,
+    "category_name": "Dolls"
+  },
+  {
+    "id": 3,
+    "category_name": "Vehicles"
+  },
+  {
+    "id": 4,
+    "category_name": "Outdoor"
+  },
+  {
+    "id": 5,
+    "category_name": "Action Figures"
+  }
+]
