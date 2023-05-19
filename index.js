@@ -4,6 +4,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const categories = require("./data/categories.json");
+const toyDetails = require("./data/toydetails.json");
 
 // middleware
 app.use(cors());
