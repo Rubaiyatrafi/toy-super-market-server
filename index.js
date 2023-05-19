@@ -17,6 +17,24 @@ app.get("/", (req, res) => {
 app.get("/categories", (req, res) => {
   res.send(categories);
 });
+app.get("/toydetails", (req, res) => {
+  res.send(toyDetails);
+  // console.log(toyDetails);
+});
+
+app.get("/toydetails/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  // console.log(id);
+  const singleToy = toyDetails.find((single) => single._id === id);
+  res.send(singleToy);
+});
+
+app.get("/categories/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  // console.log(id);
+  const toysDetails = toyDetails.filter((single) => single.category_id === id);
+  res.send(toysDetails);
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);

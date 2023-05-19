@@ -2,7 +2,7 @@
   {
     "_id": 1,
     "picture": "https://i.ibb.co/WsYSCtB/super-blaster-toy-gun-toyscentral-original-imafayhhtjny7yrc.jpg",
-    "guns_toy_name": "Super Blaster",
+    "toy_name": "Super Blaster",
     "description": "It's a fast motorized dart blaster toy gun that unleashes darts onto the target. With its 10 dart drum, this sharp shooter brings impressive firepower to the battle. It fires darts up to a distance of 40 feet, comes with 20 soft foam suction darts, and 2 target boards.",
     "category_id": 1,
 
@@ -12,7 +12,7 @@
   {
     "_id": 2,
     "picture": "https://i.ibb.co/6ZVK7gt/BIG508-K-97980.jpg",
-    "guns_toy_name": "Mega Shooter",
+    "toy_name": "Mega Shooter",
     "description": "This big Nerf Mega blaster has the size and the power to overwhelm competitors with motorized, multi-dart, mega-sized blasting. 10 NERF MEGA DARTS AND 10-DART CLIP: Comes with a 10-dart removable clip and 10 big Official Nerf Mega darts that make a whistling sound as they fly through the air.",
     "category_id": 1,
 
@@ -22,7 +22,7 @@
   {
     "_id": 3,
     "picture": "https://i.ibb.co/njM81ts/81y8-EV259f-L-SL1500.jpg",
-    "guns_toy_name": "Rapid Fire",
+    "toy_name": "Rapid Fire",
     "description": "Flashing Electronic LED lights - Pull the trigger and watch the rifle light up with flashing LED lights throughout · While trigger is held down, the gun will continue to make exciting shooting sounds. Battery Powered Electronic Toy Gun - With amazing light and sound, powered by 3 AA batteries.",
     "category_id": 1,
 
@@ -32,7 +32,7 @@
   {
     "_id": 4,
     "picture": "https://i.ibb.co/0ZZT3NL/hero4.png",
-    "guns_toy_name": "Captain America",
+    "toy_name": "Captain America",
     "description": "Super-size your superhero adventures with this incredible Titan Hero Series Captain America figure! This patriotic Avenger is ready to open up a large-sized attack on the foes of justice everywhere with his incredible, indestructible shield. With him at your side, there's no telling where your adventures will take you!",
     "category_id": 2,
 
@@ -42,7 +42,7 @@
   {
     "_id": 5,
     "picture": "https://i.ibb.co/0XXhfNQ/hero2.png",
-    "guns_toy_name": "Iron Man",
+    "toy_name": "Iron Man",
     "description": "Avengers Marvel Titan Hero Series Blast Gear Iron Man Action Figure, 12-Inch Toy, with Launcher, 2 Accessories and Projectile, Ages 4 and Up, Red. Iron Man.",
     "category_id": 2,
 
@@ -52,7 +52,7 @@
   {
     "_id": 6,
     "picture": "https://i.ibb.co/xzjBQCr/hero1.png",
-    "guns_toy_name": "Bat man",
+    "toy_name": "Bat man",
     "description": "Each action figure features 11 points of articulation, a cloth cape and detailed comic styling that brings your favorite Batman heroes and villains to life!",
     "category_id": 2,
 
@@ -62,7 +62,7 @@
   {
     "_id": 7,
     "picture": "https://i.ibb.co/rv1hv89/15095-05.jpg",
-    "guns_toy_name": "Black Superman",
+    "toy_name": "Black Superman",
     "description": "This new Superman figure delivers authentic action play and sounds from the Justice League movie. The highly detailed 6 inches scale Man of Steel figure has 14 points of articulation and a true to movie suit and cloth cape.",
     "category_id": 3,
 
@@ -72,7 +72,7 @@
   {
     "_id": 8,
     "picture": "https://i.ibb.co/mXW7VkZ/hero5.png",
-    "guns_toy_name": "Superman",
+    "toy_name": "Superman",
     "description": "This new Superman figure delivers authentic action play and sounds from the Justice League movie. The highly detailed 6 inches scale Man of Steel figure has 14 points of articulation and a true to movie suit and cloth cape.",
     "category_id": 3,
 
@@ -82,7 +82,7 @@
   {
     "_id": 9,
     "picture": "https://i.ibb.co/6vSgQc8/71c1v-DE4-Np-L-AC-SL1500.jpg",
-    "guns_toy_name": "Bat man",
+    "toy_name": "Bat man",
     "description": "Each action figure features 11 points of articulation, a cloth cape and detailed comic styling that brings your favorite Batman heroes and villains to life!",
     "category_id": 3,
 
@@ -92,7 +92,7 @@
   {
     "_id": 10,
     "picture": "https://i.ibb.co/C1z8Y6Y/ea6cdc13-aaaa-45d0-8fef-b7713b04943e-1-8c04a06e35d63b79e7b20aab51388849.jpg",
-    "guns_toy_name": "Wonder Woman",
+    "toy_name": "Wonder Woman",
     "description": "Wonder Woman is the only female superhero in the ranks of the Justice League. She is just as strong and as fast as Superman. She wears two silver bracelets, which help her to deflect projectiles, and a magic lasso.",
     "category_id": 4,
 
@@ -102,7 +102,7 @@
   {
     "_id": 11,
     "picture": "https://i.ibb.co/CPX24rF/717zmzdwvx-L.jpg",
-    "guns_toy_name": "Wanda Vision",
+    "toy_name": "Wanda Vision",
     "description": "Vision stands approximately 12 inches tall with over 30 points of articulation for dynamic posing, and comes in a skilfully tailored outfit with a cape attached, interchangeable hands, a specially designed figure stand, and a Hex themed backdrop to recreate the memorable scenes.",
     "category_id": 4,
 
@@ -112,7 +112,7 @@
   {
     "_id": 12,
     "picture": "https://i.ibb.co/SVqxVXc/b5c85910124277e7e77aa999194bdcc1.jpg",
-    "guns_toy_name": "Natasha Romanoff",
+    "toy_name": "Natasha Romanoff",
     "description": "Exquisitely crafted based on the image of Scarlett Johansson as Natasha Romanoff/Black Widow in the eponymous production, the Marvel figure features a newly developed dreadlock hair sculpture and face sculpt with impressive likeness; finely tailored black tactical outfit with gold accents.",
     "category_id": 4,
 
@@ -122,7 +122,7 @@
   {
     "_id": 13,
     "picture": "https://i.ibb.co/xzjBQCr/hero1.png",
-    "guns_toy_name": "Bat man",
+    "toy_name": "Bat man",
     "description": "Each action figure features 11 points of articulation, a cloth cape and detailed comic styling that brings your favorite Batman heroes and villains to life!",
     "category_id": 5,
 
@@ -132,7 +132,7 @@
   {
     "_id": 14,
     "picture": "https://i.ibb.co/rv1hv89/15095-05.jpg",
-    "guns_toy_name": "Black Superman",
+    "toy_name": "Black Superman",
     "description": "This new Superman figure delivers authentic action play and sounds from the Justice League movie. The highly detailed 6 inches scale Man of Steel figure has 14 points of articulation and a true to movie suit and cloth cape.",
     "category_id": 5,
 
@@ -142,7 +142,7 @@
   {
     "_id": 15,
     "picture": "https://i.ibb.co/C1z8Y6Y/ea6cdc13-aaaa-45d0-8fef-b7713b04943e-1-8c04a06e35d63b79e7b20aab51388849.jpg",
-    "guns_toy_name": "Wonder Woman",
+    "toy_name": "Wonder Woman",
     "description": "Wonder Woman is the only female superhero in the ranks of the Justice League. She is just as strong and as fast as Superman. She wears two silver bracelets, which help her to deflect projectiles, and a magic lasso.",
     "category_id": 5,
 
