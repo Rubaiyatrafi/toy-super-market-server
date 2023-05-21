@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 5000;
@@ -27,6 +27,47 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
+
+    const toysCollection = client.db("toysDB").collection("toys");
+
+    // app.get("/toystore", async (req, res) => {
+    //   const cursor = toysCollection.find();
+    //   const result = await cursor.toArray();
+    //   res.send(result);
+    // });
+    app.get("/toystore", async (req, res) => {
+      const query = {};
+      const cursor = toysCollection.find(query).limit(20);
+      const result = await cursor.toArray();
+      res.send(result);
+    });
+
+    app.get("/mytoys/:email", async (req, res) => {
+      let query = { email: req.params.email };
+      const result = await toysCollection.find(query).toArray();
+      res.send(result);
+      console.log("my toy: ", result);
+    });
+    // app.get("/toystore/:email", async (req, res) => {
+    //   let query = { email: req.query.email };
+    //   const result = await toysCollection.find(query).toArray();
+    //   res.send(result);
+    // });
+
+    app.get("/toystore/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await toysCollection.findOne(query);
+      res.send(result);
+    });
+
+    app.post("/toystore", async (req, res) => {
+      const newToys = req.body;
+      // console.log(newToys);
+      const result = await toysCollection.insertOne(newToys);
+      res.send(result);
+    });
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
